@@ -1,0 +1,26 @@
+body {
+    background-color: powderblue;
+  }
+
+  h1 {
+        color: rgb(33, 177, 243);
+        font-family: verdana;
+        font-size: 300%;
+  }
+  p {
+    color: red;
+    border: 2px solid rgb(2, 39, 44);
+    text-align: center;
+  }
+  
+  .zoom {
+    padding: 20px;
+    background-color: rgb(122, 203, 250);
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
